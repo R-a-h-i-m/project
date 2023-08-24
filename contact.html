@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Candle Charm</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="icone.jpg">
+    <link href="/candle charm.css" rel="stylesheet" />
+
+</head>
+
+<header>
+  
+  <a href="candle charm.html"><img class ="logo-candle" src="logo-candle.jpg"   alt="Candle charm" ></a>
+
+  <ul class="menu">
+    <li class ="menu-item"><a href="candle charm.html">About us |</a></li>
+  
+        <li class ="menu-item"><a href="Products.html">Our candles |</a></li>
+  
+        <li class ="menu-item"><a href="contact.html">Contact-us |</a></li>
+  
+          <li class ="menu-item"><a href="sign-up.html">Sign-up |</a></li>
+  
+  </ul>
+
+     
+</header>
+
+
+
+<body>
+
+<!-- Banner -->
+<section>
+<div class="banner" style="padding-top: 150px;">
+    <div style="margin-left: 55px;">
+      <h1 style="color:white" style=" font-family: 'tenor sans'" style="font-size: 20px;">Light-up your candle charm with 20 % OFF on your first purchase !</h1>
+       <button class="button1" style=" font-family: 'tenor sans'"><a href="Products.html">Discover our collection</a></button>
+    </div>  
+  </div>
+</section>
+
+<!-- Contact -Form -->
+
+<div class="container3">
+
+    <h1 style="color:#B27409" style=" font-family: 'tenor sans'" > Get in touch, we will be happy to help !</h1>
+    <form>
+  
+      <label for="fname">First Name*</label>
+      <input style=" font-family: 'tenor sans'"type="text" id="fname" name="firstname" placeholder="Your name.."required>
+  
+      <label for="lname">Last Name*</label>
+      <input style=" font-family: 'tenor sans'" type="text" id="lname" name="lastname" placeholder="Your last name.."required>
+
+      <label for="email"><b>Email*</b></label>
+      <input style=" font-family: 'tenor sans'"  type="text" placeholder="Enter your Email" name="email" required>
+    
+      <label for="Message">Message</label>
+      <textarea style=" font-family: 'tenor sans'" id="subject" name="Message" placeholder="Tell us how we can help you ..." style="height:200px"></textarea>
+  
+      <input style=" font-family: 'tenor sans'" type="submit" value="Submit">
+  
+    </form>
+  </div>
+
+  <script> 
+    function validateForm(e) {
+     e.preventDefault()
+     var firstname = document.loginForm.firstname.value
+     var lastname = document.loginForm.lastname.value
+     var email = document.loginForm.email.value
+    if (firstname.length==0)
+     return alert(`First name is required`)
+     if (lastname.length==0)
+     return alert(`Last name is required`)
+     if (email.length==0)
+     return alert(`Email is required`)
+    }
+    </script>
+</body>
+
+
+ <!-- footer -->
+
+<footer>
+
+  <img class ="logo-candle" src="logo-candle.jpg" alt="Candle charm"/>
+ 
+        <p style=" font-family: 'tenor sans'">© 2023 CANDLE CHARM | All rights reserved </p>
+
+</footer>
+
+
+
+</html>

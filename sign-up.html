@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Candle Charm</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="icone.jpg">
+    <link href="/candle charm.css" rel="stylesheet" />
+
+</head>
+
+<header>
+  
+  <a href="candle charm.html"><img class ="logo-candle" src="logo-candle.jpg"   alt="Candle charm" ></a>
+
+  <ul class="menu">
+    <li class ="menu-item"><a href="candle charm.html">About us |</a></li>
+  
+        <li class ="menu-item"><a href="Products.html">Our candles |</a></li>
+  
+        <li class ="menu-item"><a href="contact.html">Contact-us |</a></li>
+  
+          <li class ="menu-item"><a href="sign-up.html">Sign-up |</a></li>
+  
+  </ul>
+
+     
+</header>
+
+
+
+<body>
+
+<!-- Banner -->
+<section>
+<div class="banner" style="padding-top: 150px;">
+    <div style="margin-left: 55px;">
+      <h1 style="color:white" style=" font-family: 'tenor sans'" style="font-size: 48px;">Light-up your candle charm with 20 % OFF on your first purchase !</h1>
+       <button class="button1" style=" font-family: 'tenor sans'"><a href="Products.html">Discover our collection</a></button>
+    </div>  
+  </div>
+
+  </section>
+
+  <!-- Sign-up -->
+
+    <form  style="border:1px solid #ccc">
+        <div class="container2">
+          <h1 style="color:#B27409" style=" font-family: 'tenor sans'" >Sign Up</h1>
+          <p style=" font-family: 'tenor sans'">Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label style="color:#B27409" style=" font-family: 'tenor sans'" for="email"><b>Email</b></label>
+          <input Id= "email1" style=" font-family: 'tenor sans'"  type="text" placeholder="Enter Email" name="email" >
+      
+          <label style="color:#B27409" style=" font-family: 'tenor sans'"   Id="psw"><b>Password</b></label>
+          <input style=" font-family: 'tenor sans'"  type="password" placeholder="Enter Password" name="psw" >
+      
+          <label style="color:#B27409" style=" font-family: 'tenor sans'"  Id="psw-repeat"><b>Confirm Password</b></label>
+          <input style=" font-family: 'tenor sans'"  type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                 
+          <div class="clearfix">
+                    <button style=" font-family: 'tenor sans'"type="buttonn" class="cancelbtn">Cancel</button>
+            <button onclick="validateForm()"  style=" font-family: 'tenor sans'" type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form> 
+
+
+
+
+  </section>
+
+
+  <script> 
+  
+
+    function validateForm() {
+    var email = document.getElementById('email1')
+     var mail = document.email.value
+     var pass = document. getElementById('psw')
+     var password = document.pass.value
+    if (mail.length==0){
+    alert('mail is required');}
+    if (password.length<5){
+     alert('password length should more than 5');
+    }
+    validateForm()
+    }
+    </script>
+
+</body>
+
+
+ <!-- footer -->
+
+<footer>
+
+  <img class ="logo-candle" src="logo-candle.jpg" alt="Candle charm"/>
+ 
+        <p style=" font-family: 'tenor sans'">© 2023 CANDLE CHARM | All rights reserved </p>
+
+</footer>
+
+
+
+</html>
